@@ -1,0 +1,8 @@
+# behat.yml
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            goutte: ~
+            selenium2: ~
+            # This should open in Chrome on the mac.
+            show_cmd: open -a Google\ Chrome %s
